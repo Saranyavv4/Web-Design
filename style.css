@@ -1,0 +1,351 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 100%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+
+}
+.child{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(219, 213, 213); */
+
+}
+.child1{
+    height: 100%;
+    width: 50%;
+    /* background-color:green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(219, 213, 213); */
+
+}
+ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.child1 a{
+    color: black;
+    text-decoration: none;
+}
+.banner{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: violet */
+    
+}
+.container1{
+    height:100%;
+    width: 80%;
+    display: flex;
+    /* background-color: rgb(219, 213, 213); */
+
+    /* background-color: aqua; */
+}
+.child2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(219, 213, 213); */
+}
+.child3{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    max-width: 1200px;
+    /* background-color: brown; */
+}
+.services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.service-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.service{
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: rgb(238, 198, 198); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service:hover{
+    border: 2px solid black;
+
+}
+.service i{
+    font-size: 50px;
+    
+
+}
+h2{
+    align-items: center;
+    justify-items: center;
+    padding-left: 30px;
+}
+h1{
+    font-size: 30px;
+}
+.portfolios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+
+}
+.portfolio-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* background-color: yellow; */
+}
+.portfolio{
+    height: 300px;
+    /* background-color: green; */
+}
+.portfolio:hover{
+    border: 3px solid black;
+    transform: scale(1.2);
+    animation-delay: 0s;
+    
+}
+/* Responsive */
+/* 320px - 480px: Mobile devices
+481px - 768px: ipads, Tablets
+769px - 1024px: Small screens, Laptops
+1025px - 1200px: Desktops, Large screens
+1201px  and more - Extra Large screens, TV */
+/* @media screen and (min-width:320px) and (max-width:480px){
+
+    .service-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-text{
+        font-size: 10px;
+    }
+    .flex{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child2{
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .child3{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+
+    
+} */
+/* @media screen and (min-width:481px) and (max-width:768px){
+    body{
+
+        background-color: aquamarine;
+    }
+    .service-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .banner-text{
+        font-size: 10px;
+    }
+    .flex{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child2{
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .child3{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+
+    
+} */
+/* @media screen and (min-width:769px) and (max-width:1024px){
+    body{
+
+        background-color: aquamarine;
+    }
+    .service-wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .banner-text{
+        font-size: 10px;
+    }
+    .flex{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child2{
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .child3{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+
+    
+} */
+/* @media screen and (min-width:1025px) and (max-width:1200px){
+    body{
+
+        background-color: violet;
+    }
+    .service-wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .banner-text{
+        font-size: 10px;
+    }
+    .flex{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child2{
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .child3{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+
+    
+} */
+/* @media screen and (min-width:1201px) {
+    body{
+
+        background-color: violet;
+    }
+    .service-wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .banner-text{
+        font-size: 10px;
+    }
+    .flex{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .child2{
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .child3{
+        height: 100%;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+
+    
+} */
